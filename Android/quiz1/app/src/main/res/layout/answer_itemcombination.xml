@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineItemGrid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.8" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/guidelineItemGrid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioGroup
+            android:id="@+id/upperGridRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@id/upperGridRow2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/buttonSword1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:alpha="0.5"
+                android:background="@drawable/item_sword"
+                android:button="@null"
+                android:scaleX="0.70"
+                android:scaleY="0.70" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/buttonBow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:alpha="0.5"
+                android:background="@drawable/item_bow"
+                android:button="@null"
+                android:scaleX="0.70"
+                android:scaleY="0.70" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/buttonRod1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:alpha="0.5"
+                android:background="@drawable/item_rod"
+                android:button="@null"
+                android:scaleX="0.70"
+                android:scaleY="0.70" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/buttonTear1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:alpha="0.5"
+                android:background="@drawable/item_tear"
+                android:button="@null"
+                android:scaleX="0.70"
+                android:scaleY="0.70" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/upperGridRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@id/textView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/upperGridRow1">
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/buttonVest1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:alpha="0.5"
+                android:background="@drawable/item_vest"
+                android:button="@null"
+                android:scaleX="0.70"
+                android:scaleY="0.70" />
+
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/buttonBelt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:alpha="0.5"
+                android:background="@drawable/item_belt"
+                android:button="@null"
+                android:scaleX="0.70"
+                android:scaleY="0.70" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/buttonCloak1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:alpha="0.5"
+                android:background="@drawable/item_cloak"
+                android:button="@null"
+                android:scaleX="0.70"
+                android:scaleY="0.70" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/buttonSpatula1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:alpha="0.5"
+                android:background="@drawable/item_spatula"
+                android:button="@null"
+                android:scaleX="0.70"
+                android:scaleY="0.70" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/lowerGridRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@id/lowerGridRow2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textView3">
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/buttonSword2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:alpha="0.5"
+                android:background="@drawable/item_sword"
+                android:button="@null"
+                android:scaleX="0.70"
+                android:scaleY="0.70" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/buttonBow2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:alpha="0.5"
+                android:background="@drawable/item_bow"
+                android:button="@null"
+                android:scaleX="0.70"
+                android:scaleY="0.70" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/buttonRod2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:alpha="0.5"
+                android:background="@drawable/item_rod"
+                android:button="@null"
+                android:scaleX="0.70"
+                android:scaleY="0.70" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/buttonTear2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:alpha="0.5"
+                android:background="@drawable/item_tear"
+                android:button="@null"
+                android:scaleX="0.70"
+                android:scaleY="0.70" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/lowerGridRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/lowerGridRow1">
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/buttonVest2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:alpha="0.5"
+                android:background="@drawable/item_vest"
+                android:button="@null"
+                android:scaleX="0.70"
+                android:scaleY="0.70" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/buttonBelt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:alpha="0.5"
+                android:background="@drawable/item_belt"
+                android:button="@null"
+                android:scaleX="0.70"
+                android:scaleY="0.70" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/buttonCloak2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:alpha="0.5"
+                android:background="@drawable/item_cloak"
+                android:button="@null"
+                android:scaleX="0.70"
+                android:scaleY="0.70" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/buttonSpatula2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:alpha="0.5"
+                android:background="@drawable/item_spatula"
+                android:button="@null"
+                android:scaleX="0.70"
+                android:scaleY="0.70" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="+"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+            android:textSize="24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Check"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -19,3 +19,4 @@ def imageClickRegions(image_name, image_wh_tuple):
     return button_areas
 
 if __name__ == '__main__':
+    imageClickRegions()

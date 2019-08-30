@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                inflateConstraintLayout(R.layout.busy_layout2);
+                inflateConstraintLayout(R.layout.typed_answer_layout);
             }
         });
 

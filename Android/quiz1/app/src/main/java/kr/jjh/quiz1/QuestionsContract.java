@@ -13,5 +13,6 @@ public final class QuestionsContract {
         public static final String COLUMN_NAME_QUESTIONSTR = "QuestionString";
         public static final String COLUMN_NAME_QUESTIONIMG = "QuestionImage";
         public static final String COLUMN_NAME_NOANSWERS = "NumberOfAnswers";
+        
     }
 }
