@@ -102,23 +102,23 @@
 
 
             <com.google.android.material.radiobutton.MaterialRadioButton
-                android:id="@+id/buttonBelt1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="8dp"
-                android:alpha="0.5"
-                android:background="@drawable/item_belt"
-                android:button="@null"
-                android:scaleX="0.70"
-                android:scaleY="0.70" />
-
-            <com.google.android.material.radiobutton.MaterialRadioButton
                 android:id="@+id/buttonCloak1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="8dp"
                 android:alpha="0.5"
                 android:background="@drawable/item_cloak"
+                android:button="@null"
+                android:scaleX="0.70"
+                android:scaleY="0.70" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/buttonBelt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:alpha="0.5"
+                android:background="@drawable/item_belt"
                 android:button="@null"
                 android:scaleX="0.70"
                 android:scaleY="0.70" />
@@ -213,23 +213,23 @@
                 android:scaleY="0.70" />
 
             <com.google.android.material.radiobutton.MaterialRadioButton
-                android:id="@+id/buttonBelt2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="8dp"
-                android:alpha="0.5"
-                android:background="@drawable/item_belt"
-                android:button="@null"
-                android:scaleX="0.70"
-                android:scaleY="0.70" />
-
-            <com.google.android.material.radiobutton.MaterialRadioButton
                 android:id="@+id/buttonCloak2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="8dp"
                 android:alpha="0.5"
                 android:background="@drawable/item_cloak"
+                android:button="@null"
+                android:scaleX="0.70"
+                android:scaleY="0.70" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/buttonBelt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:alpha="0.5"
+                android:background="@drawable/item_belt"
                 android:button="@null"
                 android:scaleX="0.70"
                 android:scaleY="0.70" />
@@ -263,9 +263,10 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/checkCombinationButton"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
 
+        android:layout_height="wrap_content"
         android:text="Check"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
