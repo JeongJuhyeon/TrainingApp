@@ -1,1 +1,1 @@
-TrainingApp
+TFT Quiz App for Android
